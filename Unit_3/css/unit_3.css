@@ -1,0 +1,18 @@
+body {background-color: #570000;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: "Droid Serif", serif;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+h1 {background-color: #570000;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: "Droid Sans", Sans;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;}
+#slogan {font-style: italic;}
