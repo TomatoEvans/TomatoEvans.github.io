@@ -21,16 +21,18 @@ ul{
 }
 h1 {background-color: #fe0000;
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 32px;
 	font-family: "Droid Sans", Sans;
 	font-weight: bold;
 	margin-left: 450px;
 	text-decoration: none;
 	text-transform: uppercase;}
 #slogan {font-style: italic;
+	font-size: 18px;
 text-transform: uppercase;
-margin-top: 80px}
+margin-top: 60px}
 #blurb {
+	font-size: 16px;
 	margin-top: 30px
 }
 h2 {
