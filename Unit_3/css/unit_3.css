@@ -12,11 +12,12 @@ ul{
 	background-color: #000000;
 	padding-top: 15px;
 	padding-bottom: 12px; 
-	padding-right: 50px;
+	padding-right: 80px;
 	padding-left: 50px;
 	text-align: left;
 	width: 400px;
-	margin: 30px auto;
+	margin-top: 20px;
+	margin-left: 450px;
 	list-style: none;
 	font-family: Droid Sans, Sans;
 	line-height: 20px;
@@ -31,11 +32,18 @@ h1 {background-color: #fe0000;
 	text-transform: uppercase;}
 #slogan {font-style: italic;
 	font-size: 18px;
-text-transform: uppercase;
-margin-top: 35px}
+	text-transform: uppercase;
+	margin-top: 35px}
 #blurb {
+	background-color: #000000;
+	padding-top: 12px;
+	padding-bottom: 12px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: left;
 	font-size: 16px;
-	margin-top: 20px
+	margin-top: 20px;
+	margin-left: 450px;
 }
 h2 {
 	
