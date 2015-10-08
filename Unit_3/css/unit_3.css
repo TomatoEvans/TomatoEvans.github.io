@@ -15,7 +15,7 @@ ul{
 	padding-right: 110px;
 	padding-left: 20px;
 	text-align: left;
-	width: 400px;
+	width: 370px;
 	margin-top: 20px;
 	margin-left: 450px;
 	list-style: none;
@@ -44,6 +44,8 @@ h1 {background-color: #fe0000;
 	font-size: 16px;
 	margin-top: 20px;
 	margin-left: 450px;
+	line-height: 150%;
+	max-width: 470px;
 }
 h2 {
 	
