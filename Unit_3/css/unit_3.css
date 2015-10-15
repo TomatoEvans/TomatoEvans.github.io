@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 body {
 
 	background-color: #ffffff;
@@ -16,6 +16,7 @@ img {
 }
 
 ul{
+	font-family: 'Noto Serif', serif;
 	background-color: #fe0000;
 	padding-top: 10px;
 	padding-bottom: 12px; 
@@ -27,7 +28,7 @@ ul{
 	margin-left: 985px;
 	list-style: none;
 	font-size: 17px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: Droid Serif, Serif;
 	line-height: 30px;
 }
 h1 {
@@ -50,7 +51,7 @@ h1 {
 
 }
 #blurb {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Noto Serif', serif;
 	background-color: #fe0000;
 	padding-top: 10px;
 	padding-bottom: 10px; 
