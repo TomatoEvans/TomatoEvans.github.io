@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+
 body {
 
 	background-color: #ffffff;
@@ -16,7 +16,6 @@ img {
 }
 
 ul{
-	font-family: 'Noto Serif', serif;
 	background-color: #fe0000;
 	padding-top: 10px;
 	padding-bottom: 12px; 
@@ -51,7 +50,6 @@ h1 {
 
 }
 #blurb {
-	font-family: 'Noto Serif', serif;
 	background-color: #fe0000;
 	padding-top: 10px;
 	padding-bottom: 10px; 
