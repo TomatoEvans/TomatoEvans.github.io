@@ -1,3 +1,103 @@
 h1 {
-	color: #e6d3e7;
+	background-color: #e6d3e7;
+
 }
+span {
+	margin-top: 1500px;
+}
+
+nav {
+
+	background-color: #e6d3e7;
+	/*width: 100%;*/
+	height: 96px;
+	margin-bottom: 40px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 20px;
+	border: 10px;
+	border-color: black;
+	border-style: double;
+
+}
+.inbox {
+
+	margin-right: 25px;
+	float: right;
+}
+a{
+	color: black;
+	font-size: 1.8em;
+	font-family: "Alt hazer", sans-serif; 
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #f9cccd;
+	padding-top: 10px;
+ 	padding-bottom: 5px;
+ 	padding-right: 5px;
+ 	padding-left: 5px; 
+	margin-right: 20px;
+
+}
+.title{
+	margin:15px;
+}
+#words {
+	margin: 10px;
+	clear: both;
+}
+
+h2 {
+	
+	font-family: "Alt hazer", sans-serif; 
+	font-size: 2em;
+	background-color: #f9cccd;
+	margin: 15px;
+	padding: 15px; 
+	display: inline;
+	float: left;
+}
+h3{
+	font-family: "Alt hazer", sans-serif; 
+	font-size: 1em;
+	background-color: #f9cccd;
+	margin: 15px;
+	padding: 15px; 
+	float: right;
+}
+.container {
+	clear: both;
+	margin-top: 10px;
+	margin-right: 12px;
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+footer {
+	font-family: "Garamond Premier Pro", serif; 
+	font-size: 1.2em;
+	color: white;
+	background-color: black;
+	margin: 15px;
+	height: 96px;
+	
+}
+h4{
+	color: white;
+	font-size: 1.4em;
+	font-family: "Alt hazer", sans-serif; 
+	text-transform: uppercase;
+	float: left;
+	margin-left: 40px;
+
+}
+h5{
+	margin: 50px;
+	padding: 30px;
+	width: 800px;
+	float: right;
+}
+h6{
+	
+}
+
