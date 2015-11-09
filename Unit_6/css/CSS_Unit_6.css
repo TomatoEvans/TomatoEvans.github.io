@@ -7,7 +7,7 @@ nav {
 	margin-bottom: 10px;
 	margin-right: 15px;
 	margin-left: 15px;
-	margin-top: 30px;
+	margin-top: 25px;
 	padding: 20px;
 	border: 10px;
 	border-color: black;
@@ -56,12 +56,12 @@ a{
 .title{
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 h2 {
     font-family: "Alt hazer", sans-serif;
-    font-size: 2em;
+    font-size: 2.08em;
     display: inline-block;
 }
 h3{
@@ -75,50 +75,85 @@ h3{
     display: inline-block;
     float: right;
 }
-.pics{ width: 200px;}
+.pics { 
+	width: 200px;
+	padding: 10px;
+	/*float: inherit;*/
+
+}
 
 #bacon {
-    border: 5px;
-    width: 90%;
+   width:550px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: inline;
+}
+#brunch {
+   width:550px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+	float: right;
+    display: inline;
 }
 
 .container {
-	clear: both;
+	
 	margin-top: 10px;
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-bottom: 15px;
 }
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	display: block;
+	content:" ";
+	clear: both
+}
 .gallery {
 	float: left;
-	width: 70%;
+	width: 68%;
 	margin-bottom: 15px;
+	background-color: black;
 }
-​
-.about {
-    float: right;
-    width: 28%;
-    background-color: #e6d3e7;
-	height: 1100px;
+
+.about{
+	float:right;
+	width:27.418%;
+	background-color:#f9cccd;
+	padding-left: 50px;
+/*	padding-top: 15px;*/
+	padding-right: 30px;
+	padding-bottom: 29.3%;
+	/*margin-left: 20px;*/
 }
+
 	h1{
 	font-family: "Alt hazer", sans-serif;
     font-size: 1.618em;
     background-color: #f9cccd;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
     padding-right: 10px;
-    padding-left: 10px;
-	float: left;
+    padding-left: 50px;
 
 	}
+	p{
+		    padding-left: 50px;
+
+	}
+
 footer {
 	font-family: "Garamond Premier Pro", serif; 
 	font-size: 1.2em;
 	color: white;
 	background-color: black;
-	margin: 15px;
+	margin: 10px;
 	height: 96px;
+	
 	
 }
 h4{
@@ -127,16 +162,29 @@ h4{
 	font-family: "Alt hazer", sans-serif; 
 	text-transform: uppercase;
 	float: left;
-	margin-left: 40px;
+	margin-left: 50px;
+	margin-right: 40px;
 
 }
-h5{
-	margin: 50px;
-	padding: 30px;
-	width: 800px;
-	float: right;
+#one{
+	padding-top: 15px;
+	float: left;
+	display: inline;
+	margin-left: 50px;
+	margin-right: 100px;
 }
-h6{
-	
+#two{
+	padding-top: 15px;
+	float: left;
+	display: inline;
+	margin-right: 100px;
+}
+#three{
+	padding-bottom: 20px;
+	font-size: 1.8em;
+	width: 250px;
+	float: right;
+	padding-right: 0px;
+
 }
 
