@@ -1,17 +1,10 @@
-h1 {
-	background-color: #e6d3e7;
 
-}
-span {
-	margin-top: 1500px;
-}
 
 nav {
 
 	background-color: #e6d3e7;
-	/*width: 100%;*/
 	height: 96px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	margin-right: 15px;
 	margin-left: 15px;
 	padding: 20px;
@@ -21,23 +14,29 @@ nav {
 
 }
 .social {
-	margin-right: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
 }
-#bar {
-	margin-bottom: 30px;
+}
+.bar {
+ position: relative;
+    top: 18px;
+
 }
 .inbox {
 
 	margin-right: 25px;
 	float: right;
+	margin-top: 32px;
 }
+
 a{
 	color: black;
 	font-size: 1.8em;
 	font-family: "Alt hazer", sans-serif; 
 	text-transform: uppercase;
 	text-decoration: none;
-	background-color: #f9cccd;
 	padding-top: 10px;
  	padding-bottom: 5px;
  	padding-right: 5px;
@@ -52,41 +51,64 @@ a{
 	width: 80px;
 	height: 80px;
 }
-.title{
-	margin:15px;
-}
-#words {
-	margin: 10px;
-	clear: both;
-}
 
-h2 {
-	
-	font-family: "Alt hazer", sans-serif; 
-	font-size: 2em;
-	background-color: #f9cccd;
-	margin: 15px;
-	padding: 15px; 
-	display: inline;
-	float: left;
-}
-h3{
-	font-family: "Alt hazer", sans-serif; 
-	font-size: 1em;
-	background-color: #f9cccd;
-	margin: 15px;
-	padding: 23px; 
-	float: right;
-}
-.pics{ width: 400px;}
-.container {
-	clear: both;
-	margin-top: 10px;
-	margin-right: 12px;
-	margin-left: 12px;
+.title{
+	margin-left: 15px;
+	margin-right: 15px;
 	margin-bottom: 15px;
 }
 
+h2 {
+    font-family: "Alt hazer", sans-serif;
+    font-size: 2em;
+    display: inline-block;
+}
+h3{
+	font-family: "Alt hazer", sans-serif;
+    font-size: 1em;
+    background-color: #f9cccd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    float: right;
+}
+.pics{ width: 200px;}
+
+#bacon {
+    border: 5px;
+    width: 90%;
+}
+
+.container {
+	clear: both;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.gallery {
+	float: left;
+	width: 70%;
+	margin-bottom: 15px;
+}
+​
+.about {
+	float: right;
+	width: 30%;
+}
+	h1{
+	font-family: "Alt hazer", sans-serif;
+    font-size: 1.618em;
+    background-color: #f9cccd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+	float: left;
+
+	}
 footer {
 	font-family: "Garamond Premier Pro", serif; 
 	font-size: 1.2em;
