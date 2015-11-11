@@ -54,8 +54,8 @@ a{
 }
 
 .title{
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
 	margin-bottom: 20px;
 }
 
@@ -101,8 +101,8 @@ h3{
 .container {
 	
 	margin-top: 10px;
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: 25px;
+	margin-left: 25px;
 	margin-bottom: 15px;
 }
 .clearfix:after {
