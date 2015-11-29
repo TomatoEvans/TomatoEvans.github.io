@@ -77,6 +77,7 @@ h3{
     padding-left: 10px;
     display: inline-block;
     float: right;
+    clear: both;
 }
 .pics { 
 	width: 200px;
@@ -88,13 +89,19 @@ h3{
 #bacon {
    width:48%;
    float: left;
-   margin: 1%
+   margin-top: 1.5%;
+   margin-right: 0.5%;
+   margin-bottom: 0.5%;
+   margin-left: 1%;
    
 }
 #brunch {
    width:48%;
    float: left;
-   margin: 1%
+   margin-top: 1.5%;
+   margin-right: 0.5%;
+   margin-bottom: 0.5%;
+   margin-left: 1%;
 
 }
 
@@ -217,3 +224,43 @@ h4{
 		width: auto;
 	}
 }
+
+/*
+@media only screen and (max-width: 480px){
+	body {
+		border: 3px solid red
+	}
+}*/
+@media only screen and (max-width: 480px){
+
+.nav{
+
+	background-color: #e6d3e7;
+	height: 96px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 25px;
+	padding: 20px;
+	border: none;
+	
+}
+	.inbox{
+		max-width: 50%;
+		float:none;
+   	display:block;
+   position:relative;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
