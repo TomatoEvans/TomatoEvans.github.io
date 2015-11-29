@@ -184,7 +184,12 @@ h4{
 	padding-right: 0px;
 
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 480px){
+	body {
+		border: 3px solid red
+	}
+}
+/*@media only screen and (max-width: 1000px){
 	.gallery{ 
 		float: none;
 		width: auto;
@@ -194,4 +199,4 @@ h4{
 		float: none;
 		width: auto;
 	}
-}
+}*/
