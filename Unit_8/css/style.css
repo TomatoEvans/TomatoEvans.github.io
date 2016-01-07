@@ -86,17 +86,21 @@ h3{
    width:48%;
    float: left;
    margin-top: 1%;
-   margin-right: 0.5%;
+   margin-right: 0.8%;
    margin-bottom: 1%;
-   margin-left: 1%;
+   margin-left: 1.3%;
    
 }
 
 #brunch {
- width:48%;
- float: left;
- margin: 1%;
- margin-top: 1%;
+
+  width:48%;
+  float: left;
+  margin-top: 1%;
+   margin-right: .8%%;
+   margin-bottom: 1%;
+   margin-left: 0.3%;
+   
  
 
     margin-left: 0.5%;
@@ -198,15 +202,22 @@ h4{
   .about {
     float: none;
     width: auto;
+    padding-bottom: 20px;
   }
-}
 
-@media only screen and (max-width: 950px){
 	.inbox{
 		display: inline-block;
 		float: right;
 		font-size: 1em;
 	}
+  .choices{ 
+    float:left;
+    display: inline-block;}
+  .social{ 
+float: right;
+margin: 5px;
+height: 50%;
+  }
 }
 
 @media only screen and (max-width: 1000px){
