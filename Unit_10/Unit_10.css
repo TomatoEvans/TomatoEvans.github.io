@@ -1,13 +1,14 @@
 body {
 	background-color: orange;
 }
+
 h1 
 {
 	font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h3, p 
+.type
 {
 	color: white;
 	
