@@ -1,16 +1,16 @@
+
+
+@import url ("https://fonts.googleapis.com/css?family=Montserrat")
 body {
 	background-color: orange;
 }
 
-h1 
-{
-	font-family: 'Open Sans', sans-serif;
+h1 {
+	
     font-family: 'Montserrat', sans-serif;
 }
 
-.type
-{
-	color: white;
-	
+.type{
+	color: white;	
 }
 
