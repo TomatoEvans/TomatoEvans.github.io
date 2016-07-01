@@ -16,10 +16,13 @@ body {
 h1 {
 	
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.618em ;
+    font-size: 2em ;
 }
 
 p {
 	font-family: 'Rasa', serif;
 	
+}
+form {
+	    margin: 2px;
 }
