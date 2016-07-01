@@ -7,16 +7,20 @@ body {
 	background-color: orange;
 	text-align: center;
 	margin: auto;
+	font-size: 24px;
 
 }
 
 h1 {
 	
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.618em ;
 }
 
 p {
 	font-family: 'Rasa', serif;
+
+
 }
 
 .type{
