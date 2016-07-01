@@ -9,6 +9,7 @@ body {
 	margin: auto;
 	font-size: 24px;
 
+
 }
 
 h1 {
@@ -19,11 +20,5 @@ h1 {
 
 p {
 	font-family: 'Rasa', serif;
-
-
-}
-
-.type{
-	color: white;	
-}
+	max-width: 200px;
 
