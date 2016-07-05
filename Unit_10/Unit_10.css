@@ -8,7 +8,7 @@ body {
 	text-align: left;
 	margin: auto;
 	font-size: 32px;
-	/*max-width: 33%;*/
+	max-width: 66%;
 
 
 }
@@ -33,6 +33,7 @@ text-indent: -5px;
 }
 
 h1 {
+
 	width: 80%;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em ;
@@ -43,6 +44,7 @@ h1 {
 }
 
 p {
+
 	width: 608px;
 	font-family: 'Rasa', serif;
 	padding: 20px;
@@ -51,4 +53,7 @@ p {
 form {
 	    margin-bottom: 20px;
 	    position: center;
+}
+#spain {
+	color: red;
 }
