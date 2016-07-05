@@ -21,11 +21,13 @@ body {
 #select {
 	padding: 5px;
 	letter-spacing: 5px;
+	margin: 5 px;
 }
 
 #upload {
 	padding: 5px;
 	    border: 10px inset;
+	    margin: 5 px;
 
 }
 
