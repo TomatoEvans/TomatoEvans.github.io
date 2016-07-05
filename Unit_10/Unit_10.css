@@ -43,9 +43,6 @@ p {
 	
 }
 form {
-	    margin: 2px;
+	    margin-bottom: 20px;
 	    position: center;
-}
-#iframe {
-	margin-top: 50px;
 }
