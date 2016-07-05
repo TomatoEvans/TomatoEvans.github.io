@@ -20,15 +20,14 @@ body {
 
 #select {
 	padding: 5px;
-	letter-spacing: 5px;
-	margin: 5 px;
+text-indent: 5px;
+	margin: 5px;
 }
 
 #upload {
-	padding: 5px;
-	    border: 10px inset;
-	    margin: 5 px;
 
+		padding: 5px;
+	    margin: 5px;
 }
 
 h1 {
