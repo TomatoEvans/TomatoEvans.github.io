@@ -6,7 +6,7 @@ body {
 	color: white;
 	background-color: orange;
 	text-align: left;
-	margin: 0 auto;
+	margin: auto;
 	font-size: 16px;
 	max-width: 33%;
 
@@ -25,7 +25,7 @@ text-indent: -5px;
 }
 
 #upload {
-		position: block;
+
 		padding: 5px;
 	    margin: 5px;
 }
