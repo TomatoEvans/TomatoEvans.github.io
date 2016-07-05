@@ -27,7 +27,7 @@ text-indent: -5px;
 }
 
 #upload {
-
+		display: block;
 		padding: 5px;
 	    margin: 5px;
 }
