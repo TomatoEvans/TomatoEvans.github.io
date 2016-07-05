@@ -19,9 +19,9 @@ body {
 }
 
 #select {
-	padding: 5px;
-text-indent: 5px;
-	margin: 5px;
+
+text-indent: -5px;
+	
 }
 
 #upload {
@@ -42,4 +42,5 @@ p {
 }
 form {
 	    margin: 2px;
+	    position: center;
 }
