@@ -25,6 +25,8 @@ body {
 
 #upload {
 	padding: 5px;
+	    border: 10px inset;
+
 }
 
 h1 {
