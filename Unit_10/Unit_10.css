@@ -18,6 +18,15 @@ body {
 	position: center;
 }
 
+#select {
+	padding: 5px;
+	letter-spacing: 5px;
+}
+
+#upload {
+	padding: 5px;
+}
+
 h1 {
 	
     font-family: 'Montserrat', sans-serif;
