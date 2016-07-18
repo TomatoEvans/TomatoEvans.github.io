@@ -3,9 +3,7 @@
 @import url ("https://fonts.googleapis.com/css?family=Montserrat|Rasa");
 
 body {
-	color: white;
-/*	background: url(images/image.jpg);
-*/	background-size: cover;
+	color: #fa8322;
 	text-align: left;
 	margin: auto;
 	font-size: 32px;
@@ -50,14 +48,12 @@ h1 {
 }
 
 p {
-	color: #fa8322;
 	width: 608px;
 	font-family: 'Rasa', serif;
 	padding: 20px;
 	
 }
 form {
-		color: #fa8322;
 	    margin-bottom: 20px;
 	    position: center;
 }
