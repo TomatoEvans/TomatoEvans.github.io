@@ -35,9 +35,10 @@ text-indent: -5px;
 		padding: 5px;
 	    margin: 5px;
 }
-nav {    font-family: 'Montserrat', sans-serif;
+#nav {    font-family: 'Montserrat', sans-serif;
 		 font-size: 1.168em ;
 		 text-decoration: none;
+	
 
 
 }
