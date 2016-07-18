@@ -43,6 +43,7 @@ h1 {
 	width: 80%;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em ;
+    border: 10px orange;
     padding: 20px;
     color: black;
     background-color: #ececec; 
