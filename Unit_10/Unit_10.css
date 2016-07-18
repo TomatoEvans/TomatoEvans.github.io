@@ -13,6 +13,7 @@ body {
 }
 #image {
 	background-image: url("images/image.jpg");
+	background-size: cover; 
 }
 
 .lockup {
