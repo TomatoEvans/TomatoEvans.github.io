@@ -12,7 +12,7 @@ body {
 
 }
 #imagehead {
-	background-image: url("images/image.jpg") no-repeat center center fixed;
+	background-image: url("images/image.jpg");
 
 }
 
