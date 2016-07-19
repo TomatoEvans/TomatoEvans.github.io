@@ -4,18 +4,19 @@
 
 body {
 
+	background-image: url("images/image.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: #fa8322;
 	text-align: left;
 	margin: 0 auto;
 	font-size: 32px;
 	max-width: 66%;
+	z-index: 2;
 
 }
-#image {
-	background-image: url("images/image.jpg");
-	background-size: cover; 
-	background-repeat: no-repeat;
-}
+
 
 .lockup {
 	
@@ -32,14 +33,21 @@ text-indent: -5px;
 }
 
 #upload {
+
 		display: block;
 		padding: 5px;
 	    margin: 5px;
 }
-#menu {    
+#menu {  
+		 background: none;  
 		 font-family: 'Montserrat', sans-serif;
 		 font-size: 1.168em ;
-		 text-decoration: none ! important;
+
+}
+a {
+			 text-decoration: none;
+			 color: #fa8322;
+
 }
 
 h1 {
@@ -54,9 +62,11 @@ h1 {
 }
 
 p {
-	width: 608px;
+	width: 80%;
 	font-family: 'Rasa', serif;
 	padding: 20px;
+	color: white;
+    background-color: #fa8322;
 	
 }
 form {

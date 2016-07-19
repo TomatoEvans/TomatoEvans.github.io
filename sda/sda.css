@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Galada");
+
+body {
+
+	margin: 0 auto;
+	color: #eee;
+	font-family: 'Galada', cursive;
+	background-image: url("images/team.jpg");
+	background-repeat: no-repeat;
+
+}
+p {
+	max-width: 300px;
+}
+
+a {text-decoration: none !important;}
