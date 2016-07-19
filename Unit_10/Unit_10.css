@@ -42,17 +42,21 @@ text-indent: -5px;
 		 background: none;  
 		 font-family: 'Montserrat', sans-serif;
 		 font-size: 1.168em ;
+		 padding: 5px;
+		 border: 5px white solid;
 
 }
 a {
 			 text-decoration: none;
-			 color: #fa8322;
+			 color: white;
 
 }
 
+
 h1 {
 
-	width: 80%;
+	width: 100%;
+	/*position: fixed;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 2em ;
     padding: 20px;

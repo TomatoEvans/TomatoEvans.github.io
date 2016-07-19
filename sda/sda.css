@@ -5,12 +5,41 @@ body {
 	margin: 0 auto;
 	color: #eee;
 	font-family: 'Galada', cursive;
+	font-size: 24px;
 	background-image: url("images/team.jpg");
 	background-repeat: no-repeat;
+	text-align: center;
+
 
 }
+#wrapper {
+	background-color: #fa8322;
+	width: 960px;
+}
+h1 {
+
+	font-size: 3em;
+	padding-top: 60px;
+	margin: 10px;
+}
+
 p {
+	margin: 0 auto;
 	max-width: 300px;
+	/*font-size: 1em;*/
 }
 
-a {text-decoration: none !important;}
+a {
+
+	text-decoration: none !important;
+	padding: 5px;
+	color: black ! important;
+
+
+}
+
+nav {
+
+	padding: 40px;
+	font-size: 1.618em;
+}
