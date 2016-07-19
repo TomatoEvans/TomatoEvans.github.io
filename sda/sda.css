@@ -2,17 +2,19 @@
 
 body {
 
-	margin: 0 auto;
+	
 	color: #eee;
 	font-family: 'Galada', cursive;
 	font-size: 24px;
-	background-image: url("images/team.jpg");
-	background-repeat: no-repeat;
+	/*background-image: url("images/team.jpg");
+	background-repeat: no-repeat;*/
 	text-align: center;
 
 
 }
+
 #wrapper {
+	margin: 0 auto;
 	background-color: #fa8322;
 	width: 960px;
 }
@@ -22,10 +24,14 @@ h1 {
 	padding-top: 60px;
 	margin: 10px;
 }
-
+img {
+	margin: 0;
+	padding: none;
+}
 p {
-	margin: 0 auto;
-	max-width: 300px;
+	padding-top: none;
+	padding-bottom: 40px;
+	max-width: 900px;
 	/*font-size: 1em;*/
 }
 
@@ -35,7 +41,9 @@ a {
 	padding: 5px;
 	color: black ! important;
 
-
+}
+a :hover {
+	color: green;
 }
 
 nav {
