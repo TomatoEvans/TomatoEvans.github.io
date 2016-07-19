@@ -6,9 +6,9 @@ body {
 
 	color: #fa8322;
 	text-align: left;
-	margin: auto;
+	margin: 0 auto;
 	font-size: 32px;
-	/*max-width: 66%;*/
+	max-width: 66%;
 
 }
 #image {
@@ -36,10 +36,10 @@ text-indent: -5px;
 		padding: 5px;
 	    margin: 5px;
 }
-#nav {    
+#menu {    
 		 font-family: 'Montserrat', sans-serif;
 		 font-size: 1.168em ;
-		 
+		 text-decoration: none ! important;
 }
 
 h1 {
