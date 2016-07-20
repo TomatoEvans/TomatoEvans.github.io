@@ -15,39 +15,49 @@ body {
 
 #wrapper {
 	margin: 0 auto;
-	background-color: #fa8322;
+	background-color: #03A9F4;
 	width: 960px;
 }
 h1 {
 
 	font-size: 3em;
-	padding-top: 60px;
-	margin: 10px;
+	padding-top: 40px;
+	background-color: #2196F3;
 }
 img {
+	width: 500px;
 	margin: 0;
-	padding: none;
+	padding: 0;
 }
 p {
-	padding-top: none;
+
+	padding-top: 0;
+/*	max-width: 900px;
+*/	font-size: 1em;
+	background-color: #2196F3;
+
+}
+#p2 {	
+
 	padding-bottom: 40px;
-	max-width: 900px;
-	/*font-size: 1em;*/
 }
 
 a {
 
-	text-decoration: none !important;
+	text-decoration: none ;
 	padding: 5px;
-	color: black ! important;
+	color: white ! important;
+	background-color: #2196F3;
+
 
 }
 a :hover {
 	color: green;
+	text-decoration: underline;
 }
 
 nav {
 
-	padding: 40px;
+	padding-bottom: 40px;
 	font-size: 1.618em;
 }
