@@ -1,0 +1,22 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+}
+
+figure{
+
+	background-color: #fa8322;
+	width: 600px;
+	height: 500px;
+}
+
+figure img{
+
+}
+
+figcaption{
+
+		padding: 15px;
+}
