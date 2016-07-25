@@ -20,10 +20,10 @@ body {
 		 background: none;  
 		 font-family: 'Montserrat', sans-serif;
 		 font-size: 1.168em ;
-		 padding: 10px 0 10px 100px;
+		 padding: 10px;
 		 border: 10px white double;
 		 background-color: #fa8322;
-		 width: 90%;
+		 width: 80%;
 		 position: fixed;
 		 top: 30px;
 		 left: 10px;
@@ -72,15 +72,11 @@ h1 {
 .wrap{
 	width: 80%;
 }
-#title{
 
-	margin: 0 auto 0 5%;
-	max-width: 50%;
-}
 
 h2 {
 
-	text-align: center;
+	text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 52px ;
     padding: 20px;
@@ -109,18 +105,23 @@ text-indent: -5px;
 
 		display: block;
 		padding: 5px;
-	  	margin: 0 auto 50px auto;
+	  	margin: 0 auto;
 	    font-family: 'Merriweather', serif;
 
 }
-/*#sound {
-	margin: 0 auto 40px auto;
-}*/
+#main {
+	width: 80%;
+	background-color: #fa8322;
+}
+#sound {
+	width: 79%;
+	margin: 0 auto 0 auto;
+}
 
 a {
 			 text-decoration: none;
 			 color: white;
-			 padding: 0 80px 0 10px;
+			 padding: 0 10px 0 10px;
 
 }
 a:hover {
@@ -137,16 +138,17 @@ nav{
 	/*width: 80%;*/
 	font-family: 'Merriweather', serif;
 	font-size: 32px;
-	padding: 20px;
+	padding: 30px;
 	color: white;
     background-color: #fa8322;
-    margin: 0 auto;
+   text-align: left;
+   margin: 0 auto;
 	
 }
-#upload 
+.input
 {
-	/*width: 80%;*/
-	font-family: 'Merriweather', serif;
+/*	width: 80%;
+*/	font-family: 'Merriweather', serif;
 	font-size: 32px;
 	padding: 20px;
 	color: white;
@@ -155,9 +157,17 @@ nav{
 form {
 	    margin-bottom: 20px;
 	    position: center;
+	    font-family: 'Merriweather', serif;
+		font-size: 32px;
+		padding: 20px;
+		color: white;
+    	background-color: #fa8322;
 }
-#iframe{
-	text-align: center;
-	margin: 30px auto;
-	max-width: 50%
+footer {
+	 	/*top: 30px;
+		 left: 100px;
+		 right: 10px;
+/*		 clear:both;*/
+		 margin: 5px auto 20px auto;
+	
 }
