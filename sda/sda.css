@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Galada");
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
 body {
 
 	
@@ -13,51 +17,54 @@ body {
 
 }
 
-#wrapper {
+/*#wrapper {
 	margin: 0 auto;
 	background-color: #03A9F4;
 	width: 960px;
-}
+}*/
 h1 {
 
 	font-size: 3em;
-	padding-top: 40px;
+	padding-top: 20px;
 	background-color: #2196F3;
-}
-img {
-	width: 500px;
-	margin: 0;
-	padding: 0;
-}
-p {
-
-	padding-top: 0;
-/*	max-width: 900px;
-*/	font-size: 1em;
-	background-color: #2196F3;
-
-}
-#p2 {	
-
-	padding-bottom: 40px;
 }
 
 a {
 
 	text-decoration: none ;
 	padding: 5px;
-	color: white ! important;
-	background-color: #2196F3;
-
+	color: #2196F3;
+	background-color: #eee;
 
 }
-a :hover {
-	color: green;
-	text-decoration: underline;
+a:hover {
+	background-color: #65c3f3;
 }
 
 nav {
-
-	padding-bottom: 40px;
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 30px;
 	font-size: 1.618em;
 }
+#img {
+
+	background-color: #65c3f3;
+		border: 15px double white;
+
+}
+img {
+	width: 500px;
+	margin: 10px auto;
+	padding: 25px 0 5px 0;
+}
+footer {
+
+	padding-top: 10px;
+	margin: 0;
+	font-size: 1em;
+	background-color: #2196F3;
+	padding: 20px;
+}
+
+

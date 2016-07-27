@@ -16,14 +16,11 @@ figure{
 	margin: 100px auto 100px auto;
 }
 
-figure img{
+figure img
+{
 height: 100%;
+
 }
-
-/*figcaption{
-
-		padding: 15px;
-}*/
 #menu{
 		width: 600px;
 		margin: 10px auto 10px auto;
@@ -35,6 +32,7 @@ height: 100%;
 	display: inline;
 	padding: 10px;
 	border: 2px solid red;
+	margin-bottom: 10px;
 	font-size: 40px;
 
 }
@@ -47,8 +45,10 @@ a:visited {
 	color: blue;
 }
 a:hover {
-	color: green;
-	text-decoration: underline;
+	background-color: #aaaaaa;
+}
+#spacer{ width: 10px;
+		height: 20px;
 }
 
 footer {
@@ -58,25 +58,42 @@ footer {
 
 }
 
-#wrapper {
-	border: 2px solid black;
-	display: block;
-
-}
 .column {
+
 	width: 100px;
 	height: 100px;
-	background-color: orange;
+	background-color: #cc00cc;
 	color: black;
 	margin: 25px;
-	display: inline;
-	float: left;
+/*	display: inline-block;
+*/	float: left;
+}
+
+#wrapper {
+
+	border: 5px solid black;
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+	margin: 10px auto 10px auto;
+
+
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 p {
-	width: 800px;
-	font-size: 1em;
+	width: 80%;
+	font-size: 48px;
 	text-align: left;
-	margin: 0 auto;
+	margin: 50px auto;
 	clear:both;
 }
 	
