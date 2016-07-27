@@ -1,0 +1,50 @@
+
+	body {
+  background-color: white;
+}
+#title {
+ margin-left:500px;
+}
+#container {
+  /*width: 960%;*/
+  margin: 0 auto;
+}
+.layout {
+  width: 100%;
+}
+#article {
+  background-color: orange;
+  width: 29%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+  
+}
+#stuff1 {
+  background-color: red;
+    width: 29%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+}
+#stuff2 {
+  background-color: purple;
+    width: 29%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+}
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  clear:both; 
+}
+h4 {
+  font-family: helvetica , sans-serif;
+  padding: 10px;
+  }
+}
+@media screen and (max-width: 1800px;){
+  .layout{
+    float: none;
+    width: auto;}

@@ -24,16 +24,23 @@ body {
 		 border: 10px white double;
 		 background-color: #fa8322;
 		 width: 80%;
+		 height: 200px;
 		 position: fixed;
 		 top: 30px;
-		 left: 10px;
+		 left: 20px;
 		 right: 10px;
 /*		 clear:both;
 */		 margin: 5px auto 20px auto;}
 
+.wrap {
+	width: 80%;
+/*left: 200px;
+*/}
 
-
-
+#gimlet {
+	display: inline;
+	margin-left: 200px;
+}
 
 .clearfix:after {
 	visibility: hidden;
@@ -62,17 +69,19 @@ h1 {
 }
 
 #spacer{ width: 95%;
-		height: 200px;
+		height: 250px;
 }
 
 #spacer2{
 	width:95%;
-	height: 50px;
-}
-.wrap{
-	width: 80%;
+	height: 10px;
 }
 
+
+
+#iframe: {
+	left; 100px;
+}
 
 h2 {
 
@@ -96,17 +105,22 @@ h2 {
 }
 
 #select {
+	  text-indent: -10px;
+    	background-color: #fa8322;
+    	padding-left: 370px;
+    	/*padding-right: -100px;*/
 
-text-indent: -5px;
 	
 }
 
 #uploader {
 
 		display: block;
-		padding: 5px;
+		padding: 20px;
 	  	margin: 0 auto;
 	    font-family: 'Merriweather', serif;
+	    width: 80%;
+
 
 }
 #main {
@@ -114,9 +128,11 @@ text-indent: -5px;
 	background-color: #fa8322;
 }
 #sound {
-	width: 79%;
-	margin: 0 auto 0 auto;
-}
+	width: 820px;
+	float: left;
+	padding: 20px;
+/*	margin: 20px auto 0 auto;
+*/}
 
 a {
 			 text-decoration: none;
@@ -147,27 +163,31 @@ nav{
 }
 .input
 {
-/*	width: 80%;
+/*	width: 400px;
 */	font-family: 'Merriweather', serif;
-	font-size: 32px;
-	padding: 20px;
+	font-size: 48px;
+	text-transform: uppercase;
+	padding: 40px;
 	color: white;
     background-color: #fa8322;
 }	
+
 form {
+
 	    margin-bottom: 20px;
 	    position: center;
 	    font-family: 'Merriweather', serif;
 		font-size: 32px;
-		padding: 20px;
+		padding: 30px;
 		color: white;
     	background-color: #fa8322;
 }
-footer {
-	 	/*top: 30px;
-		 left: 100px;
-		 right: 10px;
-/*		 clear:both;*/
-		 margin: 5px auto 20px auto;
-	
-}
+
+#select{ 	font-family: 'Merriweather', serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	padding: 40px;
+	color: white;
+    background-color: #fa8322;
+}	}
+
