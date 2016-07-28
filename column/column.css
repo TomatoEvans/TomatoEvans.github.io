@@ -3,48 +3,66 @@
   background-color: white;
 }
 #title {
- margin-left:500px;
+ margin: 0 20%;
+ padding: 50px;
 }
 #container {
-  /*width: 960%;*/
+  width: 90%;
   margin: 0 auto;
 }
-.layout {
+/*.layout {
   width: 100%;
-}
+}*/
 #article {
   background-color: orange;
-  width: 29%;
-  margin: 1%;
+  width: 29.33%;
+  margin: 0 1%;
   padding: 1%;
   float: left;
   
 }
 #stuff1 {
   background-color: red;
-    width: 29%;
-  margin: 1%;
+    width: 29.33%;
+  margin: 0 1%;
   padding: 1%;
   float: left;
 }
 #stuff2 {
   background-color: purple;
-    width: 29%;
-  margin: 1%;
+    width: 29.33%;
+  margin: 0 1%;
   padding: 1%;
   float: left;
 }
 footer {
-  background-color: lightgrey;
+  background-color: #e8f0f3; 
   text-align: center;
   clear:both; 
+  padding: 1%;
+  margin: 0 1%;
 }
 h4 {
   font-family: helvetica , sans-serif;
   padding: 10px;
   }
-}
-@media screen and (max-width: 1800px;){
-  .layout{
+  h1  {
+  font-family: helvetica , sans-serif;
+  }
+  p {
+  font-family: helvetica , sans-serif;
+  padding: 10px;
+  }
+
+@media only screen and (max-width: 780px){
+  #article {
+    float: none;
+    width: auto;}
+    
+  #stuff1{
+    float: none;
+    width: auto;}
+   
+  #stuff2{
     float: none;
     width: auto;}
