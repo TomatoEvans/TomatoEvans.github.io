@@ -23,7 +23,6 @@ body {
   color: #640CE8;
   background-color: #E8F0F3;
   height: 1000px;
-  width: 80%;
   text-align: center;
 
 }
@@ -42,9 +41,17 @@ p{
   padding: 20px;
 }
 
-@media (min-width: 767px){
+@media (min-width: 768px){
  .navbar-collapse { 
     visibility: hidden;
-  }}
+  }
+  #main-content {
+   width: 95%;}}
+
+   @media (max-width: 767px){
+    #main-content {
+   width: 80%;}}
+ 
+
 
 /*/*/
