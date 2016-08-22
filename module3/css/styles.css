@@ -1,0 +1,50 @@
+body {
+  font-size: 36px;
+  color: #E8F0F3;
+  background-color: #640CE8;
+  font-family: 'Galda', sans-serif;
+}
+
+/*/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+}
+.navbar-brand { margin-bottom: 60px;
+                margin-left: 10px;
+              }
+#collapsable-nav{
+  background-color: #E8900C;
+  text-align: center;
+}
+#main-content {
+  color: #640CE8;
+  background-color: #E8F0F3;
+  height: 1000px;
+  width: 80%;
+  text-align: center;
+
+}
+#menu {
+  color: #E8F0F3;
+  margin: 50px;
+  font-size: 1em;}
+  #chicken{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: .8em;
+}
+p{
+  font-size: .5em;
+  text-align: left; 
+  padding: 20px;
+}
+
+@media (min-width: 767px){
+ .navbar-collapse { 
+    visibility: hidden;
+  }}
+
+/*/*/
